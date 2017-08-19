@@ -17,26 +17,35 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 // do your work below!
 
+//push
 var nameArray = [];
 nameArray.push("Kevin", "Yogi");
 genericNumberArray.push(6, 7, 8, 9, 10);
 
+//pop
 var popResult = colors.pop();
 
+//reverse
 scrambledWords.reverse();
 phoneNumber.reverse();
 
+//shift
 var nextOrder = orderQueue.shift();
 
+//sort
 mixedNums.sort();
 mixedWords.sort();
 
+//splice
 var notFruit = fruitCollection.splice(1, 3);
 gemBox.splice(5, 2);
 gemBox.splice(6);
 upToTen.splice(2, 0, 3, 4, 5, 6, 7, 8);
 brownOnly.splice(1, 5, "brown", "brown", "brown");
 
+//unshift
+orderedValues.unshift(1, 2, 3);
+var orderedValuesNewLength = orderedValues.length;
 
 
 
