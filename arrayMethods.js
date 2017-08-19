@@ -19,11 +19,15 @@ var bulkNumbers = [5, 5, 6, 6, 9, 9, 2, 2, 2, 5, 2];
 
 var nameArray = [];
 nameArray.push("Kevin", "Yogi");
-
 genericNumberArray.push(6, 7, 8, 9, 10);
 
 var popResult = colors.pop();
 
 scrambledWords.reverse();
 phoneNumber.reverse();
+
+var nextOrder = orderQueue.shift();
+
+
+
 
