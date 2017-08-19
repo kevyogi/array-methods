@@ -47,6 +47,10 @@ brownOnly.splice(1, 5, "brown", "brown", "brown");
 orderedValues.unshift(1, 2, 3);
 var orderedValuesNewLength = orderedValues.length;
 
+//concat
+var randomThingsArray = genericNumberArray.concat(colors);
+var updatedOrders = orderQueue.concat({takeOut: "curry"}, {takeOut: "gyoza"});
+
 
 
 
